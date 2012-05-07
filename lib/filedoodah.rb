@@ -18,7 +18,7 @@ puts "Enter body: "
 idea = gets
 puts "Please enter a name for the file: " 
 idea_name = gets.strip
-File::open( "idea-" + idea_name + ".txt", "w" ) do |f|
+File::open( "Ruby Frape!! - " + idea_name + ".txt", "w" ) do |f|
   f << idea  
 end
 
